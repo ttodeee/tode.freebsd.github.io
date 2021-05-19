@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  padding:0px;
+  margin:0px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4%;
+}
+h2{
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h3{
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+p{
+  line-height: 1.75;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+p.copyright{
+  color: #616161;
+  margin-left: 10px;
+}
+nav.sopra{
+  background-color: #5f3a3a;
+  height: 80px;
+}
+nav.sotto{
+  margin-top: 40px;
+  background-color: #f2f2f2;
+  height: 20px;
+}
+label.name{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  text-shadow: 10px 10px 10px black;
+  font-size: 25px;
+  padding: 15px;
+  margin-top: 100px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+img.logo{
+  position:relative;
+  justify-content: center;
+  left: -305px;
+  top: 14px;
+}
+img.imglato{
+  float: right;
+  margin-right:28px;
+  margin-left: 15px;
+}

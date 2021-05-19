@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>FreeBSD About</title>
+<link rel="icon" href="https://seeklogo.com/images/F/freebsd-logo-542DF4765A-seeklogo.com.png" type="image/x-icon">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <nav class="sopra">
+    <label class="name">FreeBSD</label>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="features.html">Features</a></li>
+    <li><a href="Download.html">Download</a></li>
+  </ul>
+  <img class="logo" alt="Logo" src="img/logo.png" width="50px">
+  </nav>
+  <h1>ABOUT FREEBSD</h1>
+  <h2>History</h2>
+  <h3>Origin</h3>
+  <img class="imglato" src="img/freebsd1.0.jpg" width="550px">
+  <p/>The Freebsd project (named after David Greenman) <b>originated in early 1993</b> as an evolution of the "Unofficial 386BSD Patchkit" by Nate William, Rod Grimes and Jordan Hubbard. <b>The first CD-ROM release was Freebsd 1.0</b> and appeared in December 1993. In the spring of 1994, however, some developments in a lengthy legal dispute between Berkeley University and Novell also affected the Freebsd operating system.</p>
+  <p>The Freebsd 1.0 code was based on the 386BSD 0.1 code, which in turn was derived from the Net/2 system. This code, which contained portions of the AT&T UNIX copyright, was later purchased by Novell, who claimed ownership of it from the University of Berkeley. In fact, the two parties reached an agreement because much of the code that BSD had taken from AT&T’s UNIX had been extensively modified, if not completely rewritten.</p>
+  <p>Freebsd still had to delete the portions of code taken from the proprietary system. The challenge was particularly challenging: <b>much of the code had to be rewritten</b>. However, as early as November of the same year saw the light Freebsd 2.0, still rather unstable version but free from the constraints of ownership on the code. Other intermediate versions of improvement followed: the 3.x (October 1998), the 4.x (March 2000) the 5.x (2003) up to 6.x (2005), the 7.x released on 27 February 2008, the 8.x of November <br>2009, the 9.2 of September 2013 and 10.0 of 20 January 2014.</p>
+  <h3>Foundation</h3>
+  <p>The development of Freebsd is supported in part by the "Freebsd Foundation". The Foundation is a <b>non-profit organization</b> that accepts donations. Some donations are obtained from developer sponsors and are used to purchase hardware and network infrastructure, for summits and for legal support of the project itself.</p>
+  <h2>Description</h2>
+  <h3>Characteristics</h3>
+  <img class="imglato" src="img/FreeBSD-splash.jpg" width="550px">
+  <p>It is an operating system used mainly in the server field and this is due to the stability and scalability of its networking part; great attention is also paid to <b>security issues</b>, and currently three firewall systems are available, integrated into the system since version 6.0: although it owes its fame especially to this, can be used effectively as a desktop operating system: thousands are in fact the applications available through the ports, namely the package management system of Freebsd, and among them are web browsers, integrated graphics environments, office suites, media players etc.</p>
+  <p>The ports free the user from the problem of the dependencies relative to the packages, that is the complex of other programs and libraries necessary to assure the correct operation on the machine of the same program that we are installing; therefore, by installing a program via the ports tree, the most up-to-date sources of the program will be downloaded, not its binary executable, and also the updated sources of all the programs on which it depends; Then the programs are recompiled ex-novo on the user’s machine and installed in the correct directories ready for use (a similar management is also found in Linux distributions <br>Gentoo and Arch Linux).</p>
+  <h3>Networking</h3>
+  <p>The protocol stack is based on TCP/IP, but also supports Ipv6, SCTP, Ipsec, IPX, Appletalk, and wireless networks.</p>
+  <h3>Storage</h3>
+  <p>Freebsd has several storage features. Soft updates <b>maintains filesystem integrity in case of system crash</b>. The GEOM framework supports features such as RAID, full disk encryption (whole disk data encryption) and disk concatenation. The snapshot filesystem is a feature that allows you to efficiently create an instantaneous image of the filesystem, while also allowing you to restore the system from a live filesystem. Freebsd also supports the ZFS filesystem as an alternative to the normal UFS2.</p>
+  <h3>Security</h3>
+  <p>Freebsd supports several security features such as access control list (Acls), event verification, extended filesystem attributes, and mandatory access control (MAC). These features were developed by the Trustedbsd project which was founded by Robert Watson with the aim of implementing concepts from the Common Criteria and those of the TCSEC. This project is still in progress and many of its extensions have been integrated into Freebsd distributions.</p>
+  <p><b>This project also adapted the implementation of the National Security Agency</b> from Selinux to Freebsd. Other work included in the development of Openbsm, an open source implementation of the Sun API (BSM) and support for the log file format, which add more security to the system.</p>
+  <p>While many components of the Trustedbsd project have been included in the sources for Freebsd, many features, now fully developed, find their place in other operating systems, such as: Openpam and UFS2 have been adopted in Netbsd. The Trustedbsd MAC framework was adopted by Apple for its macos operating system.</p>
+  <h3>Kernel</h3>
+  <p>Freebsd has a monolithic kernel. The only Freebsd kernel (often abbreviated to kfreebsd) is used by other distributions, such as Debian GNU/kfreebsd.</p>
+  <h3>Portability</h3>
+  <p>Freebsd <b>has been adapted to a variety of processor</b> architectures. The Freebsd project arranges architectures in levels that characterize the intended support. Level 1 architectures are fully mature and supported. Level 2 architectures are under development. Level 3 architectures are experimental and have no active development and in the case of level 4 have absolutely no support.</p>
+  <h3>Linux compatibility</h3>
+  <img class="imglato" src="img/freebsdliunux.jpg" width="200px">
+  <p>The Linux compatibility layer allows you to run 32-bit and 64-bit ELF files compiled for Linux. There are generally no significant performance declines compared to a native performance. Various programs compiled for Linux are included and maintained in the ports collection. For the execution of the latter, it is necessary to install some kernel modules (among other things necessary for the installation of the kernel module of the NVIDIA driver) and a basic Linux system (at the time of Freebsd 11.0-RELEASE the binaries of Centos 6.x are used).</p>
+  <nav class="sotto">
+    <p class="copyright">Legal Notices | © 2021 The our FreeBSD Project All rights reserved. The mark FreeBSD is registered on the portale argo of the I.T.I.S. P. Paleocapa school and is used by sti 3 bigol with the Prof. Crobu |<a href="cookie.html">Manage Cookie</p>
+  </nav>
+</html>
